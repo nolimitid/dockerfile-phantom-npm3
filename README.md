@@ -7,10 +7,10 @@ Docker image based on [Nodesource's trusty:5.1.0](https://github.com/nodesource/
 |package name                 | version |
 |-----------------------------|---------|
 |nodejs                       |5.1.0    |
-|phantomjs                    |1.9.19   |
+|phantomjs                    |1.9.8    |
 |karma-cli (via npm)          |LATEST   |
-|gulp-cli (via npm)           |LATEST   |
-|mocha                        |LATEST   |
+|dalek-cli (via npm)          |LATEST   |
+|mocha (via npm)              |LATEST   |
 |webpack (via npm)            |LATEST   |
 
 ## Installation

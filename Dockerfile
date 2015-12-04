@@ -1,5 +1,5 @@
 # NolimitID docker images with nodesource's trusty,
-# nodejs v5.1.0, phantomjs 1.9.19, karma-cli, mocha,
+# nodejs v5.1.0, phantomjs 1.9.8, karma-cli, mocha,
 # and webpack.
 
 FROM nodesource/trusty:5.1.0
@@ -8,7 +8,7 @@ MAINTAINER maman <achmad@mahardi.me>
 
 # Set ENV
 ENV NODE_ENV dev
-ENV PHANTOMJS_VERSION 1.9.19
+ENV PHANTOMJS_VERSION 1.9.8
 ENV UV_THREADPOOL_SIZE=6
 
 # Commands
@@ -26,5 +26,5 @@ RUN \
   apt-get clean all && \
   npm install webpack && \
   npm install karma-cli && \
-  npm install mocha && \
-  npm install gulp-cli
+  npm install dalek-cli && \
+  npm install mocha
